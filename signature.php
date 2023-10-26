@@ -99,7 +99,7 @@
                                                                                     <table border="0" cellpadding="3" cellspacing="0">
                                                                                         <tr>
                                                                                             <td align="left" valign="middle" style="border-collapse: collapse;">
-                                                                                                <img src="./images/globe.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
+                                                                                                <img src="https://raw.githubusercontent.com/hasan4flf/signature-generator-aiop/main/images/globe.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
@@ -109,7 +109,7 @@
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td align="left" valign="middle" style="border-collapse: collapse;">
-                                                                                                <img src="./images/location.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
+                                                                                                <img src="https://raw.githubusercontent.com/hasan4flf/signature-generator-aiop/main/images/location.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
@@ -135,7 +135,7 @@
                                                                                     <table border="0" cellpadding="3" cellspacing="0">
                                                                                         <tr>
                                                                                             <td align="left" valign="middle" style="border-collapse: collapse;">
-                                                                                                <img src="./images/call.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
+                                                                                                <img src="https://raw.githubusercontent.com/hasan4flf/signature-generator-aiop/main/images/call.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
@@ -145,7 +145,7 @@
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td align="left" valign="middle" style="border-collapse: collapse;">
-                                                                                                <img src="./images/mail.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
+                                                                                                <img src="https://raw.githubusercontent.com/hasan4flf/signature-generator-aiop/main/images/mail.png" style="margin: 0 !important;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
