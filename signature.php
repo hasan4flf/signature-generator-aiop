@@ -72,7 +72,7 @@
                                                                                 <td valign="top" style="padding-bottom: 10px;border-collapse: collapse;">
 						                                                            <div style="text-align: center;color: #09163A;font-family: Arial;font-size: 14px;line-height: 150%;">
                                                                                         <img src="https://aiopaward.com/wp-content/uploads/2023/06/American-Institute-of-Professionals-Logo.png" style="max-width: 100%;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
-						                                                                <h1 class="h1" style="color: #09163A;display: block;font-family: Arial;font-size: 28px;font-weight: bold;line-height: 100%;text-transform: uppercase;text-align: center;margin-top: 10px !important;margin-right: 0 !important;margin-bottom: 5px !important;margin-left: 0 !important;"><?php echo $name ?></h1>
+						                                                                <h1 class="h1" style="color: #09163A;display: block;font-family: Arial;font-size: 22px;font-weight: bold;line-height: 100%;text-transform: uppercase;text-align: center;margin-top: 10px !important;margin-right: 0 !important;margin-bottom: 5px !important;margin-left: 0 !important;"><?php echo $name ?></h1>
 						                                                                <p style="color: #09163A;display: block;font-family: Arial;font-size: 14px;font-weight: normal;line-height: 100%;text-transform: uppercase;text-align: center;margin-top: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;margin-left: 0 !important;"><?php echo $designation ?></p>
 						                                                            </div>
                                                                                 </td>
@@ -139,7 +139,7 @@
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
-                                                                                                    <a href="tel:+1&lt;?php echo $link_phone ?&gt;" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $phone ?></a>
+                                                                                                    <a href="tel:+1<?php echo $link_phone; ?>" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $phone ?></a>
                                                                                                 </div>
                                                                                             </td>
                                                                                         </tr>
@@ -149,7 +149,7 @@
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
-                                                                                                    <a href="mailto:&lt;?php echo $email ?&gt;" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $email ?></a>
+                                                                                                    <a href="mailto:<?php echo $email; ?>" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $email ?></a>
                                                                                                 </div>
                                                                                             </td>
                                                                                         </tr>
