@@ -1,23 +1,11 @@
 <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-         // Check Injection
-         function sanitize($data) {
-            $data   = trim($data);
-            $data   = stripslashes($data);
-            $data   = htmlspecialchars($data);
-            return $data;
-        }
-
-        // Get The form data
-        $photo      	= sanitize($_POST['photo']);
-        $name      		= sanitize($_POST['name']);
-        $designation	= sanitize($_POST['designation']);
-        $phone      	= sanitize($_POST['phone']);
-        $link_phone 	= preg_replace('/[^0-9]/', '', $phone);
-        $email      	= sanitize($_POST['email']);
-    } else {
-        header('Location: ./');
-    }
+// Use htmlspecialchars to prevent XSS attacks by escaping HTML entities
+$fileUrl = isset($_GET['fileUrl']) ? htmlspecialchars($_GET['fileUrl']) : 'Not provided';
+$name = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Not provided';
+$designation = isset($_GET['designation']) ? htmlspecialchars($_GET['name']) : 'Not provided';
+$phone = isset($_GET['phone']) ? htmlspecialchars($_GET['phone']) : 'Not provided';
+$phone_link = preg_replace('/\D+/', '', $phone);
+$email = isset($_GET['email']) ? htmlspecialchars($_GET['email']) : 'Not provided';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -47,7 +35,7 @@
                                                             <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                                 <tr>
                                                                     <td valign="top" style="border-collapse: collapse;">
-                                                                        <img src="https://drive.google.com/uc?export=view&id=<?php echo $photo ?>" style="width: 100%;max-width: 100%;border: 8px solid #09163A;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
+                                                                        <img src="<?php echo $fileUrl; ?>" style="width: 100%;max-width: 100%;border: 8px solid #09163A;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline;">
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -139,7 +127,7 @@
                                                                                             </td>
                                                                                             <td align="left" valign="top" style="border-collapse: collapse;">
                                                                                                 <div style="color: #505050;font-family: Arial;font-size: 12px;line-height: 150%;text-align: left;">
-                                                                                                    <a href="tel:+1<?php echo $link_phone; ?>" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $phone ?></a>
+                                                                                                    <a href="tel:+1<?php echo $phone_link; ?>" style="color: #09163A;font-weight: normal;text-decoration: none;"><?php echo $phone ?></a>
                                                                                                 </div>
                                                                                             </td>
                                                                                         </tr>
