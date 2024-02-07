@@ -11,8 +11,7 @@ $email = isset($_GET['email']) ? htmlspecialchars($_GET['email']) : 'Not provide
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-		
+        <title>AIOP Signature Generator</title>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100% !important;">
     	<center>
