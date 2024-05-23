@@ -2,7 +2,7 @@
 // Use htmlspecialchars to prevent XSS attacks by escaping HTML entities
 $fileUrl = isset($_GET['fileUrl']) ? htmlspecialchars($_GET['fileUrl']) : 'Not provided';
 $name = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Not provided';
-$designation = isset($_GET['designation']) ? htmlspecialchars($_GET['name']) : 'Not provided';
+$designation = isset($_GET['designation']) ? htmlspecialchars($_GET['designation']) : 'Not provided';
 $phone = isset($_GET['phone']) ? htmlspecialchars($_GET['phone']) : 'Not provided';
 $phone_link = preg_replace('/\D+/', '', $phone);
 $email = isset($_GET['email']) ? htmlspecialchars($_GET['email']) : 'Not provided';
